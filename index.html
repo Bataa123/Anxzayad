@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Joy</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #00203FFF, #ADEFD1FF);
+            color: white;
+            text-align: center;
+            height: 100%;
+            overflow-y: auto; /* Allow vertical scrolling */
+        }
+
+        /* Header & Navigation */
+        header {
+            background: #FF4141;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #FFD700;
+        }
+
+        /* Main Content */
+        .photo-container {
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+        }
+        .photo-container img {
+            width: 100%;
+            border-radius: 15px;
+        }
+        .message {
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #FFF9F9;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            background: #FF4141;
+            color: white;
+            padding: 15px 0;
+            font-size: 0.9rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Snowflake Animation */
+        .snowflake {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: white;
+            opacity: 0.8;
+            border-radius: 50%;
+            animation: fall 10s infinite linear;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -10%;
+                left: calc(100% * var(--random-x));
+            }
+            100% {
+                top: 110%;
+                left: calc(100% * var(--random-x));
+            }
+        }
+
+        .snowflake:nth-child(1) { --random-x: 0.05; animation-duration: 10s; animation-delay: -2s; }
+        .snowflake:nth-child(2) { --random-x: 0.25; animation-duration: 12s; animation-delay: -3s; }
+        .snowflake:nth-child(3) { --random-x: 0.45; animation-duration: 9s; animation-delay: -1s; }
+        .snowflake:nth-child(4) { --random-x: 0.65; animation-duration: 11s; animation-delay: -4s; }
+        .snowflake:nth-child(5) { --random-x: 0.85; animation-duration: 13s; animation-delay: -5s; }
+        .snowflake:nth-child(6) { --random-x: 0.15; animation-duration: 8s; animation-delay: -2s; }
+        .snowflake:nth-child(7) { --random-x: 0.35; animation-duration: 14s; animation-delay: -6s; }
+        .snowflake:nth-child(8) { --random-x: 0.55; animation-duration: 9s; animation-delay: -7s; }
+        .snowflake:nth-child(9) { --random-x: 0.75; animation-duration: 10s; animation-delay: -8s; }
+        .snowflake:nth-child(10) { --random-x: 0.95; animation-duration: 12s; animation-delay: -9s; }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🎄 Шинэ жилын мэнд   🎄</h1>
+    </header>
+
+   
+  
+        
+       
+
+    <!-- Main Content -->
+    <div class="photo-container">
+        <img src="Picsart_24-12-31_00-53-03-584.jpg" alt="Christmas Image">
+        <p class="message">2025 онд амжилт бүтээлээр дүүрэн байг. Чи зорилгодоо заавал хүрч чаднаа хичээгээрэй</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <!-- Snowflakes -->
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+    <div class="snowflake"></div>
+
+</body>
+</html>
+
